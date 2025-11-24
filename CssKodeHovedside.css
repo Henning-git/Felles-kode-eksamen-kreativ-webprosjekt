@@ -1,0 +1,72 @@
+body {
+    margin:0;
+    background: #000;
+    font-family: Atial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/*Navigasjonsmeny*/
+.top-nav {
+    background: #0a0a0a;
+    padding: 8px 0;
+    font-size: 17px;
+}
+
+.top-nav a {
+    color: 00aef0;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #24c4ff;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: -10px;
+    color: #ccccccf0;
+}
+
+.content {
+    width:90%;
+    max-width: 950px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    margin: 20px 0;
+    display: flex;
+    align-items:center;
+    padding:20px;
+}
+
+.card img.img {
+    width:110px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.card .text {
+    flex: 1;
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #ffffff;
+}
